@@ -21,7 +21,7 @@ function App() {
         </a>
       </header>
       <section>
-        <Russ/>
+        <Russ msg="Hello I'm a props component" />
       </section>
     </div>
   );
