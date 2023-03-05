@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Russ from "./components/russ";
+import Props from "./components/Props";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </section>
         <section>
           <Russ msg="Hello I'm a props component" />
+          <Props/>
         </section>
       </header>
     </div>
