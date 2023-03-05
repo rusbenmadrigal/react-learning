@@ -24,8 +24,8 @@ function App() {
         </section>
         <section>
           <Russ msg="Hello I'm a props component" />
-          <hr/>
-          <Props/>
+          <hr />
+          <Props cadena="this is a text string" number={19} bolean={true} />
         </section>
       </header>
     </div>
