@@ -24,6 +24,7 @@ function App() {
         </section>
         <section>
           <Russ msg="Hello I'm a props component" />
+          <hr/>
           <Props/>
         </section>
       </header>
