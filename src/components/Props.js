@@ -7,7 +7,8 @@ export default function Props(props) {
       <ul>
         <li>{props.cadena}</li>
         <li>{props.number}</li>
-        <li>{props.bolean ? "true" : "false"}</li>
+        <li>{props.bolean ? "true" : "false"} </li>
+        <li>{props.fixing}</li>
       </ul>
     </div>
   );
