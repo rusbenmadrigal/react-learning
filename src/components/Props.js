@@ -9,6 +9,7 @@ export default function Props(props) {
         <li>{props.number}</li>
         <li>{props.bolean ? "true" : "false"} </li>
         <li>{props.fixing.join(", ")}</li>
+     
       </ul>
     </div>
   );

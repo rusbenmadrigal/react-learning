@@ -25,7 +25,12 @@ function App() {
         <section>
           <Russ msg="Hello I'm a props component" />
           <hr />
-          <Props cadena="this is a text string" number={19} bolean={true} fixing={[1,2,3]}/>
+          <Props
+            cadena="this is a text string"
+            number={19}
+            bolean={true}
+            fixing={[1, 2, 3]}
+          />
         </section>
       </header>
     </div>
