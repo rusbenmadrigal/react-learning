@@ -1,4 +1,5 @@
 import React from "react";
+import propTypes from "prop-types";
 
 export default function Props(props) {
   return (
@@ -17,4 +18,8 @@ export default function Props(props) {
 
 Props.defaultProps = {
   bydefault: "The new props",
+};
+
+Props.propTypes = {
+   number: propTypes.number,
 };
